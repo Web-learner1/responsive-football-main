@@ -3,6 +3,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: ;
 }
       /* top section styles starts */
 .container{
@@ -39,7 +40,7 @@ body{
 
 .middle-section{
     margin-top: 80px;
-    margin-left: 140px;
+    margin-left: 100px;
 }
 .players{
     display: grid;
@@ -73,7 +74,7 @@ body{
 }
 .all-highlights{
     padding-top: 200px;
-    padding-left: 180px;
+    padding-left: 110px;
 }
 .all-highlights h1{
     font-size: 38px;
@@ -102,18 +103,38 @@ body{
 /* copyright section style starts */
 .logo img{
     width: 30%;
-    padding-left: 500px;
+    padding-left: 450px;
 }
 .social-media{
-    padding-left: 550px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
 }
-.fab{
-    color: gray;
-    font-size: 25px;
-    padding-left: 30px;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
+.social-media ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.social-media ul li{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
     background-color: #D3D3D3;
+    border-radius: 100%;
+    margin: 0 10px;
 }
+.social-media ul li a{
+    display: block;
+    color: gray;
+    font-size: 20px;
+}
+.social-media ul li a i{
+    line-height: 40px;
+}
+.copyright p{
+    text-align: center;
+}
+
 /* copyright section style ends */
