@@ -3,16 +3,15 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    overflow-x: ;
 }
       /* top section styles starts */
-.container{
+.top-section{
     height: 700px;
     background-color: rgb(47, 47, 202);
     margin: 0;
     padding: 0;
 }
-.top-section{
+.container{
     display: flex;
 }
 .section-title{
@@ -34,7 +33,7 @@ body{
     transform: scale(1.1);
     background-color: navy;
 }
-.section-image img{
+.top-section-image img{
     width: 60%;
     margin-left: 200px; 
     margin-top: 120px;
@@ -149,3 +148,5 @@ body{
 }
 
 /* copyright section style ends */
+
+
