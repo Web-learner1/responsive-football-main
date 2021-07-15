@@ -27,6 +27,12 @@ body{
     background-color: #E02C6D;
     padding: 10px 24px;
     color: white;
+    display: inline-block;
+    transition: transform 1s;
+}
+.watch-live:hover{
+    transform: scale(1.1);
+    background-color: navy;
 }
 .section-image img{
     width: 60%;
@@ -89,6 +95,11 @@ body{
     color: white;
     display: inline-block;
     margin-top: 24px;
+    transition: transform 1s ;
+}
+.watch-now:hover{
+    background-color: lightseagreen;
+    transform: scale(1.1);
 }
 .fa-arrow-right{
     margin-left: 15px;
