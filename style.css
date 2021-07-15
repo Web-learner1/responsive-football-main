@@ -148,5 +148,40 @@ body{
 }
 
 /* copyright section style ends */
+    /* responsiveness  */
+
+@media only screen and (max-width: 600px) {
+
+    .top-section{
+        overflow-y: hidden;
+    }
+    .container{
+        display: block;
+    }
+    .section-title{
+        margin-left: 10px;
+    }
+    .section-title h1{
+        font-size: 30px;
+    }
+
+    .top-section-image img{
+        width: 60%;
+        margin-left: 15px;
+        margin-top: -60px;
+    }
+
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 100px;
+    }
+    .logo img{
+        width: 70%;
+        padding-left: 30px;
+        padding-top: 40px;
+    }
+
+}
 
 
